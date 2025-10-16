@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 // React + Tailwind single-page portfolio for Ritesh Kumar.
 // Deployable build instructions included below.
 
-const RESUME_URL = "/resume.pdf";
+const RESUME_URL =
+  "https://drive.google.com/file/d/11ZP18FAJPRfaHID2fH_9Sim02qvNlT3M/view?usp=drive_link";
 const FORM_ACTION = "https://formspree.io/f/yourformid"; // replace with actual Formspree endpoint
 
 const projectsSample = [
