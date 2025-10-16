@@ -121,10 +121,10 @@ export default function Portfolio() {
             transition={{ duration: 0.5 }}
             className="flex items-center justify-center"
           >
-            <div className="w-44 h-44 rounded-xl overflow-hidden border-4 border-indigo-100 dark:border-indigo-900 shadow-lg">
+            <div className="w-44 h-55 rounded-xl overflow-hidden border-4 border-indigo-100 dark:border-indigo-900 shadow-lg">
               <img
                 alt="Profile"
-                src="https://avatars.dicebear.com/api/initials/RK.svg"
+                src="/portfolio/profile.png"
                 className="w-full h-full object-cover bg-white"
               />
             </div>
