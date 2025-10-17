@@ -175,7 +175,7 @@ export default function Portfolio() {
                   <div className="text-xs opacity-80">{p.tech.join(" • ")}</div>
                   <div className="flex gap-2">
                     <a
-                      href={p.github}
+                      href="https://github.com/rits365"
                       aria-label="github"
                       className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700"
                     >
@@ -244,13 +244,13 @@ export default function Portfolio() {
 
               <div className="mt-4 flex gap-3">
                 <a
-                  href="#"
+                  href="https://github.com/rits365"
                   className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg"
                 >
                   <Github size={16} /> GitHub
                 </a>
                 <a
-                  href="#"
+                  href="https://linkedin.com/in/ritesh-singh-056b2226"
                   className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg"
                 >
                   <Linkedin size={16} /> LinkedIn
@@ -310,10 +310,13 @@ export default function Portfolio() {
         {/* Footer */}
         <footer className="mt-16 text-center text-sm opacity-80">
           <div className="flex items-center justify-center gap-4">
-            <a href="#" aria-label="github">
+            <a href="https://github.com/rits365" aria-label="github">
               <Github size={16} />
             </a>
-            <a href="#" aria-label="linkedin">
+            <a
+              href="https://linkedin.com/in/ritesh-singh-056b2226"
+              aria-label="linkedin"
+            >
               <Linkedin size={16} />
             </a>
             <a href="mailto:ritesh365.nitj@gmail.com" aria-label="email">
